@@ -1,0 +1,85 @@
+html {
+  font-family: Roboto, sans-serif;
+}
+
+* {
+  color: #333333;
+}
+
+h1 {
+  color: #2f80ed;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  color: #333333;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1 em;
+}
+
+h3 {
+  color: #2f80ed;
+}
+
+a {
+  color: #2f80ed;
+}
+
+.contacts {
+  margin-bottom: 2em;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact__type {
+  min-width: 90px;
+}
+
+.experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.experience__date {
+  min-width: 185px;
+  margin-bottom: 1em;
+}
+
+.experience__name {
+  font-weight: bold;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.projects__name {
+  font-weight: bold;
+}
+
+.education {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.education__date {
+  min-width: 185px;
+  margin-bottom: 1em;
+}
+
+.education__name {
+  font-weight: bold;
+}
+/*# sourceMappingURL=styles.css.map */
