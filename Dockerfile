@@ -6,4 +6,4 @@ COPY . /cv_webpage
 
 RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
-EXPOSE 5000
+
