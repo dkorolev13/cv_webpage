@@ -4,111 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dmitry Korolev CV</title>
-    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}"}>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" }>
 </head>
 <body>
-    <div class="cv">
-        <section>
-            <h1>Дмитрий Королев</h1>
-            <h2>ML Engineer</h2>
-            <div class="contacts">
-                <div class="contact">
-                    <div class="contact__type">Github</div>
-                    <div class="contact__value">
-                        <a href="https://github.com/dkorolev13" target="_blank">github.com/dkorolev13</a>
-                    </div>
-                </div>
-                <div class="contact">
-                    <div class="contact__type">Email</div>
-                    <div class="contact__value">
-                        <a href="mailto:dkorolev13@gmail.com">dkorolev13@gmail.com</a>
-                    </div>
-                </div>
-                <div class="contact">
-                    <div class="contact__type">Phone</div>
-                    <div class="contact__value">
-                        <div>+79258686281</div>
-                    </div>
+<div class="cv">
+    <section>
+        <h1>Дмитрий Королев</h1>
+        <h2>ML Engineer</h2>
+        <div class="contacts">
+            <div class="contact">
+                <div class="contact__type">Github</div>
+                <div class="contact__value">
+                    <a href="https://github.com/dkorolev13" target="_blank">github.com/dkorolev13</a>
                 </div>
             </div>
-            <div class="description">
-                <p>Я хочу развиваться как ML Engineer. Меня заинтересовало это направление,<br> 
-                   как направление, которое объединяет в себе программирование и математику.<br>
-                   Мой опыт работы в IT -  4,5 года разработки десктопных приложений в Qt/C++ в государственной организации.</p> 
-                
+            <div class="contact">
+                <div class="contact__type">Email</div>
+                <div class="contact__value">
+                    <a href="mailto:dkorolev13@gmail.com">dkorolev13@gmail.com</a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="contact__type">Phone</div>
+                <div class="contact__value">
+                    <div>+79258686281</div>
+                </div>
+            </div>
+        </div>
+        <div class="description">
+            <p>Я хочу развиваться как ML Engineer. Меня заинтересовало это направление,<br>
+                как направление, которое объединяет в себе программирование и математику.<br>
+                Мой опыт работы в IT - 4,5 года разработки десктопных приложений в Qt/C++ в государственной организации.
+            </p>
+        </div>
+    </section>
+    <section>
+        <h3>Проекты</h3>
+        <div class="projects">
 
-            </div>
-        </section>
-        <section>
-            <h3>Проекты</h3>
-            <div class="projects">
-               
-                <div class="projects__descriptions">
-                    <div class="projects__name">Telegram bot: @PaintingStyleClassificatorBot</div>
-                   
-                    <div class="projects__details">
-                        <ul>
-                            <li><a href="https://github.com/dkorolev13/painting_style_classificator" target="_blank">github.com/dkorolev13/painting_style_classificator</a></li>
-                            <li>Нейросеть для определения художественного стиля картины на основе ResNet50 </li>
-                            <li>Точность предсказания 57.91%</li>
-                            <li>Телеграм бот написан с использованием библиотеки aiogram</li>
-                            <li>Серверная часть написана с использованием fastapi</li>
-                            <li>Приложение развернуто в Oracle Cloud с помощью Docker-compose</li>
-                            <li>Стэк: Python (aiogram, fasapi), fastAI, Docker, Docker-compose, Oracle Cloud, Git, Google Colab</li>
-                        </ul>
-                    </div>
-                </div>   
-            </div>
-        </section>
-        <section>
-            <h3>Опыт работы</h3>
-            <div class="experience">
-                <div class="experience__date">09.2017 - по н.в.</div>
-                <div class="experience__descriptions">
-                    <div class="experience__name">C++/Qt developer</div>
-                    <div class="experience__company">Алмаз-Антей</div>
-                    <div class="experience__details">
-                        <ul>
-                            <li>Разработка десктопных приложений (под NDA)</li>
-                            <li>Стэк: Qt, C++, OpenCV, Linux</li>
-                        </ul>
-                    </div>
+            <div class="projects__descriptions">
+                <div class="projects__name">Telegram bot: @PaintingStyleClassificatorBot</div>
+
+                <div class="projects__details">
+                    <ul>
+                        <li><a href="https://github.com/dkorolev13/painting_style_classificator" target="_blank">github.com/dkorolev13/painting_style_classificator</a>
+                        </li>
+                        <li>Нейросеть для определения художественного стиля картины на основе ResNet50</li>
+                        <li>Точность предсказания 57.91%</li>
+                        <li>Телеграм бот написан с использованием библиотеки aiogram</li>
+                        <li>Серверная часть написана с использованием fastapi</li>
+                        <li>Приложение развернуто в Oracle Cloud с помощью Docker-compose</li>
+                        <li>Стэк: Python (aiogram, fasapi), fastAI, Docker, Docker-compose, Oracle Cloud, Git, Google
+                            Colab
+                        </li>
+                    </ul>
                 </div>
             </div>
-            
-        </section>
-        <section>
-            <h3>Образование</h3>
-            <div class="education">
-                <div class="education__date">2022</div>
-                <div class="education__descriptions">
-                    <div class="education__name">Нейронные сети и компьютерное зрение</div>
-                    <div class="education__company"><a href="https://stepik.org/cert/1391499" target="_blank">Stepik</a></div>
+        </div>
+    </section>
+    <section>
+        <h3>Опыт работы</h3>
+        <div class="experience">
+            <div class="experience__date">09.2017 - по н.в.</div>
+            <div class="experience__descriptions">
+                <div class="experience__name">C++/Qt developer</div>
+                <div class="experience__company">Алмаз-Антей</div>
+                <div class="experience__details">
+                    <ul>
+                        <li>Разработка десктопных приложений (под NDA)</li>
+                        <li>Стэк: Qt, C++, OpenCV, Linux</li>
+                    </ul>
                 </div>
             </div>
-            <div class="education">
-                <div class="education__date">2022</div>
-                <div class="education__descriptions">
-                    <div class="education__name">Математика и Python для анализа данных</div>
-                    <div class="education__company"><a href="https://www.coursera.org/account/accomplishments/certificate/DJ3RWF94PYUT" target="_blank">Coursera</a></div>
+        </div>
+    </section>
+    <section>
+        <h3>Образование</h3>
+        <div class="education">
+            <div class="education__date">2022</div>
+            <div class="education__descriptions">
+                <div class="education__name">Нейронные сети и компьютерное зрение</div>
+                <div class="education__company"><a href="https://stepik.org/cert/1391499" target="_blank">Stepik</a>
                 </div>
             </div>
-            <div class="education">
-                <div class="education__date">2005 - 2010</div>
-                <div class="education__descriptions">
-                    <div class="education__name">Прикладная математика</div>
-                    <div class="education__company">Московский государственный строительный университет</div>
-                </div>
+        </div>
+        <div class="education">
+            <div class="education__date">2021</div>
+            <div class="education__descriptions">
+                <div class="education__name">Математика и Python для анализа данных</div>
+                <div class="education__company"><a
+                        href="https://www.coursera.org/account/accomplishments/certificate/DJ3RWF94PYUT"
+                        target="_blank">Coursera</a></div>
             </div>
-            
-        </section>
-        <sectoion>
-            <h3>Навыки</h3>
-            <div>
-                Python, PyTorch, C++, SQL, DS, Math, Linux, Docker, AWS, Oracle Cloud, Git
+        </div>
+        <div class="education">
+            <div class="education__date">2005 - 2010</div>
+            <div class="education__descriptions">
+                <div class="education__name">Прикладная математика</div>
+                <div class="education__company">Московский государственный строительный университет</div>
             </div>
-        </sectoion>
-    </div>
-    
+        </div>
+    </section>
+    <sectoion>
+        <h3>Навыки</h3>
+        <div>
+            Python, PyTorch, C++, SQL, DS, Math, Linux, Docker, AWS, Oracle Cloud, Git
+        </div>
+    </sectoion>
+</div>
 </body>
 </html>
