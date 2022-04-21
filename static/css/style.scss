@@ -30,7 +30,7 @@ a {
 }
 
 .contacts {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .contact {
@@ -43,7 +43,7 @@ a {
 
 .experience {
   display: flex;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   &__date {
     min-width: 185px;
     margin-bottom: 1em;
@@ -55,7 +55,7 @@ a {
 
 .projects {
   display: flex;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   &__name {
     font-weight: bold;
   }
@@ -63,7 +63,7 @@ a {
 
 .education {
   display: flex;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   &__date {
     min-width: 185px;
     margin-bottom: 1em;
